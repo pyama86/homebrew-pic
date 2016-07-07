@@ -1,7 +1,7 @@
 require 'formula'
 
 HOMEBREW_PINC_PASSWD_VERSION='0.0.2'
-class pinc < Formula
+class Pinc < Formula
   homepage 'https://github.com/pyama86/pinc'
   url "https://github.com/pyama86/pinc/releases/download/v#{HOMEBREW_PINC_PASSWD_VERSION}/pinc_darwin_amd64.zip"
   sha256 "24fd95197e7b460049db37d195e3e7d68146c7a99f43cdb0eee913856112c60d"
